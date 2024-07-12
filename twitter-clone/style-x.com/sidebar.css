@@ -1,0 +1,68 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding-left: 100px;
+    padding-right: 13px;
+    padding-bottom: 10px;
+    border-right: solid;
+    border-right-color: rgb(47, 51, 54);
+    border-right-width: 1px;
+}
+
+.left-section, .right-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar img {
+    width: 27px;
+}
+
+.x-icon, .home-icon, .search-icon, .notifi-icon, .mail-icon, .grok-icon, .communities-icon, .premium-icon, .profile-icon, .more-icon,.post-icon, .account-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.x-icon, .home-icon, .search-icon, .notifi-icon, .mail-icon, .grok-icon, .communities-icon, .premium-icon, .profile-icon, .more-icon{
+    height: 50px;
+}
+
+.post-icon {
+    height: 70px;
+}
+
+.profile-icon img {
+    width: 23px;
+}
+
+.post-icon img {
+    width: 60px;
+}
+
+.home-icon {
+    position: relative;
+}
+
+.home-icon .blue-dot {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+    background-color: rgb(24, 119, 242);
+    right: 0;
+    top: 7px;
+}
+
+.account-icon img {
+    width: 47px;
+}

@@ -1,0 +1,31 @@
+.right-section-main-page {
+    margin-top: 15px;
+    width: 340px;
+}
+
+.subscribe-para {
+    padding-right: 5px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.subscribe-premium-box {
+    background-color: black;
+    width: 340px;
+    border: solid;
+    border-color: rgb(47, 51, 54);
+    border-width: 1px;
+    border-radius: 15px;
+}
+
+.subscribe-button {
+    background-color:rgb(29, 155, 240);
+    color: white;
+    padding: 10px 15px;
+    font-size: 15px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: none;
+
+}
